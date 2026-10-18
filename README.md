@@ -26,7 +26,7 @@ One complete scene, single-scene audio export and backup/restore are free. Lifet
 ## Verification and current limits
 The final core/local-purchase/native-capture suite passed32 tests. Objective physical-iPhone QA recorded and fully decoded144015 nonzero microphone frames, reopened the saved library, completed playback through the final gap, exported188115 WAV frames and restored a portable backup. This is objective sample/route/completion evidence, not a subjective listening-quality claim. Native workflow checks also cover iPhone, iPad, landscape, small screens, large text and dark appearance.
 
-The signed release targets iPhone and iPad15+ with the current SDK. iOS15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Final remote purchase verification and App Review submission remain pending; no public availability is claimed.
+The signed release targets iPhone and iPad15+ with the current SDK. iOS15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Genuine remote purchase verification was skipped by publisher instruction; no successful remote purchase is claimed. App Store Connect preparation and App Review submission remain pending; no public availability is claimed.
 
 The app has no account, AI voices, transcription, supplied licensed scripts or cloud backend. Recordings remain local unless the user exports or shares them; normal system backup settings apply. Commercial source is private. This public repository contains only reviewed marketing artwork, product context and support/privacy pages.
 

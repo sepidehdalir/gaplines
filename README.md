@@ -2,7 +2,7 @@
 
 A native rehearsal room for recorded dialogue and timed reply gaps.
 
-**October18,2026: build1.0(2) validated and uploaded. Release QA is in progress; not yet submitted or released.**
+**October18,2026: build1.0(3) validated and uploaded. Release QA is in progress; not yet submitted or released.**
 
 [Product and support](https://sepidehdalir.github.io/gaplines/) · [Privacy](privacy.html) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio)
 

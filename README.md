@@ -2,7 +2,7 @@
 
 A native rehearsal room for recorded dialogue and timed reply gaps.
 
-**October18,2026: build1.0(3) validated and uploaded. Release QA is in progress; not yet submitted or released.**
+**October 18, 2026: app 1.0 (3) and GapLines Lifetime Pro submitted together. Both are Waiting for Review. Not released.**
 
 [Product and support](https://sepidehdalir.github.io/gaplines/) · [Privacy](privacy.html) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio)
 
@@ -19,14 +19,14 @@ One complete scene, single-scene audio export and backup/restore are free. Lifet
 - **Durable work:** immutable validated takes and atomic versioned JSON manifests. A failed replacement preserves the previous recording.
 - **Portable recovery:** bounded, staged validation of schema, identifiers, paths, timings and decodable media before an atomic restore. Keep-both and replacement are deliberate choices.
 - **Real audio export:** streamed PCM WAV rendering follows recorded segments and exact silence durations, including the final gap; cancellation never changes originals.
-- **StoreKit2:** signed entitlements, purchase/restore states and preserved access to existing scenes after an entitlement changes.
+- **StoreKit 2:** signed entitlements, purchase/restore states and preserved access to existing scenes after an entitlement changes.
 
 <img src="assets/ipad-01-room-for-your-reply.png" width="760" alt="Dedicated iPad layout with scene library beside the native rehearsal workspace">
 
 ## Verification and current limits
-The final core/local-purchase/native-capture suite passed32 tests. Objective physical-iPhone QA recorded and fully decoded144015 nonzero microphone frames, reopened the saved library, completed playback through the final gap, exported188115 WAV frames and restored a portable backup. This is objective sample/route/completion evidence, not a subjective listening-quality claim. Native workflow checks also cover iPhone, iPad, landscape, small screens, large text and dark appearance.
+The final core/local-purchase/native-capture suite passed 32 tests. Objective physical-iPhone QA recorded and fully decoded 144,015 nonzero microphone frames, reopened the saved library, completed playback through the final gap, exported 188,115 WAV frames and restored a portable backup. This is objective sample/route/completion evidence, not a subjective listening-quality claim. Native workflow checks also cover iPhone, iPad, landscape, small screens, large text and dark appearance.
 
-The signed release targets iPhone and iPad15+ with the current SDK. iOS15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Genuine remote purchase verification was skipped by publisher instruction; no successful remote purchase is claimed. App Store Connect preparation and App Review submission remain pending; no public availability is claimed.
+The signed release targets iPhone and iPad 15+ with the current SDK. iOS 15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Genuine remote purchase verification was skipped by publisher instruction; no successful remote purchase is claimed. App 1.0 (3) and Lifetime Pro are submitted together and Waiting for Review; no public availability is claimed.
 
 The app has no account, AI voices, transcription, supplied licensed scripts or cloud backend. Recordings remain local unless the user exports or shares them; normal system backup settings apply. Commercial source is private. This public repository contains only reviewed marketing artwork, product context and support/privacy pages.
 

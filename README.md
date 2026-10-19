@@ -2,7 +2,7 @@
 
 A native rehearsal room for recorded dialogue and timed reply gaps.
 
-**October 19, 2026: app 1.0 (3) is Rejected under Guideline 4.3(a); Lifetime Pro is Ready for Review. An app-specific clarification/reconsideration response has been sent. Not released.**
+**October 19, 2026: app 1.0 (3) is Rejected under Guideline 4.3(a); Lifetime Pro is Ready for Review. Apple confirmed receipt of an app-specific App Review Board appeal on October 19. Decision pending; not released.**
 
 [Product and support](https://sepidehdalir.github.io/gaplines/) · [Privacy](privacy.html) · [iOS portfolio](https://github.com/sepidehdalir/ios-app-portfolio)
 
@@ -26,7 +26,7 @@ One complete scene, single-scene audio export and backup/restore are free. Lifet
 ## Verification and current limits
 The final core/local-purchase/native-capture suite passed 32 tests. Objective physical-iPhone QA recorded and fully decoded 144,015 nonzero microphone frames, reopened the saved library, completed playback through the final gap, exported 188,115 WAV frames and restored a portable backup. This is objective sample/route/completion evidence, not a subjective listening-quality claim. Native workflow checks also cover iPhone, iPad, landscape, small screens, large text and dark appearance.
 
-The signed release targets iPhone and iPad 15+ with the current SDK. iOS 15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Genuine remote purchase verification was skipped by publisher instruction; no successful remote purchase is claimed. App 1.0 (3) was submitted with Lifetime Pro on October 18. On October 19, App Review rejected the app under Guideline 4.3(a); the IAP is Ready for Review. A response explaining the implemented workflow and requesting specific clarification has been sent. No resubmission or public availability is claimed.
+The signed release targets iPhone and iPad 15+ with the current SDK. iOS 15 runtime was unavailable locally; target compilation and available-runtime tests are kept distinct. Local StoreKit behavior and genuine remote product lookup were checked. Genuine remote purchase verification was skipped by publisher instruction; no successful remote purchase is claimed. App 1.0 (3) was submitted with Lifetime Pro on October 18. On October 19, App Review rejected the app under Guideline 4.3(a); the IAP is Ready for Review. Apple confirmed receipt of the Board appeal explaining the implemented workflow and requesting specific clarification. No resubmission or public availability is claimed.
 
 The app has no account, AI voices, transcription, supplied licensed scripts or cloud backend. Recordings remain local unless the user exports or shares them; normal system backup settings apply. Commercial source is private. This public repository contains only reviewed marketing artwork, product context and support/privacy pages.
 
